@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 04, 2020 at 07:43 AM
+-- Generation Time: Mar 04, 2020 at 08:25 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.1
 
@@ -151,9 +151,9 @@ CREATE TABLE `m_user` (
 --
 
 INSERT INTO `m_user` (`id_user`, `username`, `password`, `salt_password`, `nama`, `avatar`, `user_opd`, `user_wil`, `user_level`, `is_aktif`) VALUES
-(1, 'admin5100', '7d1312cb824bbfa971aa8ddaa7a35329', '5e367d605cc664.75516330', 'Admin Provinsi Bali', 'default.png', 1, '5100', 2, 1),
-(12, 'bps5100', '7d1312cb824bbfa971aa8ddaa7a35329', '5e367d605cc664.75516330', 'BPS Prov. Bali', 'default.png', 1, '5100', 4, 1),
-(14, 'pim5100', '7d1312cb824bbfa971aa8ddaa7a35329', '5e367d605cc664.75516330', 'Pimpinan Provinsi Bali', 'default.png', 40, '5100', 3, 1);
+(1, 'admin5100', '9afc61ca2602d97d4b64a04655bc5434', '58ed7d88bf8703.80862057', 'Admin Provinsi Bali', 'default.png', 1, '5100', 2, 1),
+(12, 'bps5100', '9afc61ca2602d97d4b64a04655bc5434', '58ed7d88bf8703.80862057', 'BPS Prov. Bali', 'default.png', 1, '5100', 4, 1),
+(14, 'pim5100', '9afc61ca2602d97d4b64a04655bc5434', '58ed7d88bf8703.80862057', 'Pimpinan Provinsi Bali', 'default.png', 40, '5100', 3, 1);
 
 -- --------------------------------------------------------
 
